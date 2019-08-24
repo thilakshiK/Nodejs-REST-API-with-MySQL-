@@ -21,6 +21,11 @@ const dbconn = mysql.createConnection({
 
 dbconn.connect();
 
+// default route
+app.get("/", (req, res) => {
+  return res.send({ error: true, message: "hello" });
+});
+
 //Get all users
 app.get("/users", (req, res) => {
   dbconn.query("SELECT * FROM users", (error, results, fields) => {

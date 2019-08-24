@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 24, 2019 at 02:11 PM
+-- Generation Time: Aug 24, 2019 at 02:21 PM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.8
 
@@ -40,11 +40,11 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `created_at`) VALUES
-(1, 'Test', 'test@g.co', '2019-02-28 13:20:20'),
-(2, 'john', 'john@g.co', '2019-02-28 13:20:20'),
-(3, 'tutsmake', 'tuts@g.co', '2019-02-28 13:20:20'),
-(4, 'tut', 'tut@g.co', '2019-02-28 13:20:20'),
-(5, 'mhd', 'mhd@g.co', '2019-02-28 13:20:20');
+(1, 'Marie', 'Marie@gmail.com', '2019-08-24 13:20:20'),
+(2, 'Anne', 'Anne@gmail.com', '2019-08-24 13:20:20'),
+(3, 'Gayle', 'gayle@gmail.com', '2019-08-24 13:20:20'),
+(4, 'Mel', 'Mel@gmail.co', '2019-08-24 13:20:20'),
+(5, 'Ricky', 'Ricky@gmail.com', '2019-08-24 13:20:20');
 
 --
 -- Indexes for dumped tables
