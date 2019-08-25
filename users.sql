@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 24, 2019 at 02:21 PM
+-- Generation Time: Aug 25, 2019 at 09:10 AM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.8
 
@@ -31,20 +31,19 @@ SET time_zone = "+00:00";
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
   `name` varchar(200) NOT NULL,
-  `email` varchar(200) NOT NULL,
-  `created_at` datetime NOT NULL DEFAULT current_timestamp()
+  `email` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `name`, `email`, `created_at`) VALUES
-(1, 'Marie', 'Marie@gmail.com', '2019-08-24 13:20:20'),
-(2, 'Anne', 'Anne@gmail.com', '2019-08-24 13:20:20'),
-(3, 'Gayle', 'gayle@gmail.com', '2019-08-24 13:20:20'),
-(4, 'Mel', 'Mel@gmail.co', '2019-08-24 13:20:20'),
-(5, 'Ricky', 'Ricky@gmail.com', '2019-08-24 13:20:20');
+INSERT INTO `users` (`id`, `name`, `email`) VALUES
+(1, 'Marie', 'Marie@gmail.com'),
+(2, 'Ruth', 'ruth@gmail.com'),
+(3, 'Sheldon', 'shelly@gmail.com'),
+(4, 'amy', 'amy@gmail.com'),
+(5, 'Kunal', 'kunal@gmail.com');
 
 --
 -- Indexes for dumped tables
